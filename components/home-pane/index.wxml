@@ -1,0 +1,16 @@
+<view class='home-pane'>
+  <view class='home-pane__hd'>
+    <view class='home-pane__hd-label'>{{label}}</view>
+    <view class='home-pane__hd-icon'>
+      <eva-icon name='arrow-ios-{{isOpen?"upward":"downward"}}-outline'></eva-icon>
+    </view>
+  </view>
+  <view class='home-pane__bd'>
+    <view class='home-pane__bd-item' wx:for='{{items}}' wx:key='path'>
+      <view class='home-pane__bd-item-label'>{{label}}</view>
+      <view class='home-pane__bd-item-icon'>
+        <eva-icon name='arrow-ios-forward-outline'></eva-icon>
+      </view>
+    </view>
+  </view>
+</view>
