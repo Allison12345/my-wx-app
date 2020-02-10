@@ -1,1 +1,4 @@
-/* components/eva-icon/index.wxss */
+.eva-icon {
+  width: 48rpx;
+  height: 48rpx;
+}

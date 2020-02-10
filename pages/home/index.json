@@ -1,1 +1,6 @@
-{}
+{
+  "component": true,
+  "usingComponents": {
+    "home-pane": "../../components/home-pane/index"
+  }
+}

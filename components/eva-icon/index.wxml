@@ -1,1 +1,4 @@
-<image src='../../node_modules/eva-icons/{{type}}/png/128/{{name}}.png'></image>
+<image
+  class="eva-icon"
+  src="https://unpkg.com/eva-icons/{{ type }}/png/128/{{ name }}.png"
+></image>
