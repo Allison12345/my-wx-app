@@ -18,7 +18,6 @@ Component({
     },
     onRouteTap(event) {
       const { path } = event.currentTarget.dataset
-      console.log(path)
       wx.navigateTo({
         url: `/pages/${path}/index`
       })
