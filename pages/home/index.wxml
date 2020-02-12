@@ -1,4 +1,4 @@
-<view>
+<my-page>
   <home-pane
     wx:for="{{ list }}"
     wx:key="label"
@@ -8,4 +8,4 @@
     index="{{ index }}"
     bind:changeIndex="changeIndex"
   ></home-pane>
-</view>
+</my-page>

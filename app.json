@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/home/index",
-    "pages/cover-img/index"
+    "pages/cover-img/index",
+    "pages/cover-view/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

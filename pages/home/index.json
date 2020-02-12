@@ -1,6 +1,6 @@
 {
-  "component": true,
   "usingComponents": {
+    "my-page": "../../components/my-page/index",
     "home-pane": "../../components/home-pane/index"
   }
 }

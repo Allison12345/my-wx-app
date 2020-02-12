@@ -1,16 +1,12 @@
 Component({
   options: {
-    addGlobalClass: true
+    styleIsolation: 'apply-shared'
   },
   properties: {
     label: String,
     items: Array,
     isOpen: Boolean,
     index: Number
-  },
-  ready() {
-    const { items, label } = this.properties
-    console.log(items, label)
   },
   methods: {
     onShow() {

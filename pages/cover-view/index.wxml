@@ -1,0 +1,5 @@
+<my-page>
+  <map class="my-map" latitude="{{ latitude }}" longitude="{{ longitude }}">
+    <cover-view class="my-cover-view"></cover-view>
+  </map>
+</my-page>

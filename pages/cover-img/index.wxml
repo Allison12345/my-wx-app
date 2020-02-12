@@ -1,3 +1,5 @@
-<cover-image
-  src="https://unpkg.com/eva-icons/outline/png/128/{{ imgList[imgIndex] }}.png"
-></cover-image>
+<my-page>
+  <view>
+    <cover-image src="{{ imgList[imgIndex] }}"></cover-image>
+  </view>
+</my-page>

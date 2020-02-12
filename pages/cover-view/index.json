@@ -1,6 +1,5 @@
 {
   "usingComponents": {
     "my-page": "../../components/my-page/index"
-  },
-  "enablePullDownRefresh": true
+  }
 }
