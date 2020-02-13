@@ -1,1 +1,12 @@
 @import '../../app.wxss';
+.home-pane {
+  padding: 32rpx;
+  margin: 8rpx 0;
+  background-color: white;
+}
+.home-pane__bd{
+  padding: 20rpx 0;
+}
+.home-pane__bd-item{
+  margin: 32rpx 0;
+}

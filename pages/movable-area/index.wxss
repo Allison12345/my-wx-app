@@ -1,0 +1,8 @@
+.my-area {
+  width: 100%;
+  height: 500rpx;
+  background-color: pink;
+}
+.my-view {
+  background-color: purple;
+}

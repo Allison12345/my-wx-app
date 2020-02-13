@@ -2,7 +2,8 @@
   "pages": [
     "pages/home/index",
     "pages/cover-img/index",
-    "pages/cover-view/index"
+    "pages/cover-view/index",
+    "pages/movable-area/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

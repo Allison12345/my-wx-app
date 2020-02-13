@@ -1,11 +1,13 @@
 <my-page>
-  <home-pane
-    wx:for="{{ list }}"
-    wx:key="label"
-    label="{{ item.label }}"
-    items="{{ item.items }}"
-    isOpen="{{ index === selectedIndex }}"
-    index="{{ index }}"
-    bind:changeIndex="changeIndex"
-  ></home-pane>
+  <view class="my-home">
+    <home-pane
+      wx:for="{{ list }}"
+      wx:key="label"
+      label="{{ item.label }}"
+      items="{{ item.items }}"
+      isOpen="{{ index === selectedIndex }}"
+      index="{{ index }}"
+      bind:changeIndex="changeIndex"
+    ></home-pane>
+  </view>
 </my-page>
