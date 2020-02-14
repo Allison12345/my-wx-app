@@ -1,0 +1,20 @@
+<my-page>
+  <swiper
+    indicator-dots="{{ indicatorDots }}"
+    interval="{{ interval }}"
+    duration="{{ duration }}"
+    autoplay="{{ autoplay }}"
+  >
+    <swiper-item wx:for="{{ swiperItems }}" wx:key="*this">
+      <view class="{{ item }} flex-x-cc">{{ item }}</view>
+    </swiper-item>
+  </swiper>
+  <my-cells>
+    <my-cell hd="指示点">
+      <switch checked="{{ indicatorDots }}" bindchange="onDotsChange"></switch>
+    </my-cell>
+    <my-cell hd="自动播放">
+      <switch checked="{{ autoplay }}" bindchange="onAutoPlayChange"></switch>
+    </my-cell>
+  </my-cells>
+</my-page>

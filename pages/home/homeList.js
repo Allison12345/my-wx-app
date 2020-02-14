@@ -15,20 +15,12 @@ const homeList = [
         path: 'movable-area'
       },
       {
-        label: 'movable-view',
-        path: 'movable-view'
-      },
-      {
         label: 'scroll-view',
         path: 'scroll-view'
       },
       {
         label: 'swiper',
         path: 'swiper'
-      },
-      {
-        label: 'swiper-item',
-        path: 'swiper-item'
       },
       {
         label: 'view',

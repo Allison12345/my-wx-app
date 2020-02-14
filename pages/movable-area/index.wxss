@@ -5,4 +5,6 @@
 }
 .my-view {
   background-color: purple;
+  width: 100rpx;
+  height: 100rpx;
 }

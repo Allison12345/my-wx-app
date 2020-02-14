@@ -2,11 +2,13 @@
 .home-pane {
   padding: 32rpx;
   margin: 8rpx 0;
-  background-color: white;
+  background-color: #fff;
 }
-.home-pane__bd{
-  padding: 20rpx 0;
+.home-pane__bd {
+  background-color: #f8f8f8;
 }
-.home-pane__bd-item{
-  margin: 32rpx 0;
+.home-pane__bd-item {
+  padding: 16rpx 0;
+  margin: 4rpx 0;
+  background-color: #fff;
 }

@@ -5,10 +5,9 @@
       x="{{ x }}"
       y="{{ y }}"
       direction="all"
-      scale-area
-      scale-min="0.5"
-      scale-max="20"
-      scale-value="5"
+      scale="{{ true }}"
+      scale-max="5"
+      scale-min="1"
     >
     </movable-view>
   </movable-area>

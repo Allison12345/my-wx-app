@@ -1,0 +1,9 @@
+<view class="my-cell">
+  <view class="my-cell__hd">{{ hd }}</view>
+  <view class="my-cell__bd">{{ bd }}</view>
+  <view class="my-cell__ft">
+    <block wx:if="{{ ft }}">{{ ft }}</block>
+    <slot wx:else> </slot>
+    <eva-icon wx:if="{{ isLink }}" name="arrow-ios-forward-outline"></eva-icon>
+  </view>
+</view>

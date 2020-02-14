@@ -3,7 +3,8 @@
     "pages/home/index",
     "pages/cover-img/index",
     "pages/cover-view/index",
-    "pages/movable-area/index"
+    "pages/movable-area/index",
+    "pages/swiper/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
