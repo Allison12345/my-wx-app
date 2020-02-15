@@ -1,0 +1,15 @@
+.text-1 {
+  background-color: yellow;
+  width: 125rpx;
+  height: 50rpx;
+}
+.text-2 {
+  background-color: purple;
+  width: 125rpx;
+  height: 50rpx;
+}
+.text-3 {
+  background-color: pink;
+  width: 125rpx;
+  height: 50rpx;
+}

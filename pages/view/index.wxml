@@ -1,0 +1,9 @@
+<my-page>
+  <p>flex-direction: row\n横向布局</p>
+  <view class="group">
+    <block class="row" wx:for="{{ items }}" :key="*this">
+      <view class="{{ item }}">{{ item }}</view>
+    </block>
+  </view>
+  <p>flex-direction: column\n纵向布局</p>
+</my-page>

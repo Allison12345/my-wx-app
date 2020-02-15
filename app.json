@@ -4,7 +4,9 @@
     "pages/cover-img/index",
     "pages/cover-view/index",
     "pages/movable-area/index",
-    "pages/swiper/index"
+    "pages/swiper/index",
+    "pages/view/index",
+    "pages/icon/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

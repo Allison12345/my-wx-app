@@ -1,4 +1,10 @@
 /* 左右顶格 上下居中对齐 */
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
 .flex-x-sb {
   display: flex;
   flex-direction: row;
