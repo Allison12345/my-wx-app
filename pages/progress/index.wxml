@@ -1,0 +1,9 @@
+<my-page>
+  <progress
+    percent="{{ percentData }}"
+    stroke-width="12"
+    active
+    showInfo
+    bindactiveend="onActicveend"
+  ></progress>
+</my-page>

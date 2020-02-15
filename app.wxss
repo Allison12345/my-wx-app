@@ -1,10 +1,17 @@
-/* 左右顶格 上下居中对齐 */
-.row {
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-x {
   flex-direction: row;
 }
-.column {
+.flex-y {
   flex-direction: column;
 }
+
+/* 左右顶格 上下居中对齐 */
 .flex-x-sb {
   display: flex;
   flex-direction: row;

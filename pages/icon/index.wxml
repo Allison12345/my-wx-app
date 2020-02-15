@@ -1,26 +1,30 @@
 <my-page>
   <view class="group">
-    <block wx:for="{{ iconSize }}" wx:key="*this">
-      <icon type="success" size="{{ item }}"></icon>
-    </block>
+    <icon
+      wx:for="{{ iconSize }}"
+      wx:key="*this"
+      type="success"
+      size="{{ item }}"
+    ></icon>
   </view>
   <view class="group">
-    <block wx:for="{{ iconColor }}" wx:key="*this">
-      <icon type="success" color="{{ item }}"></icon>
-    </block>
+    <icon
+      wx:for="{{ iconColor }}"
+      wx:key="*this"
+      type="success"
+      color="{{ item }}"
+    ></icon>
   </view>
   <view class="group">
-    <block wx:for="{{ iconType }}" wx:key="*this">
-      <icon type="{{ item }}"></icon>
-    </block>
+    <icon wx:for="{{ iconType }}" wx:key="*this" type="{{ item }}"></icon>
   </view>
   <view class="group">
-    <block wx:for="{{ myIcon }}" wx:key="*this">
-      <icon
-        type="{{ item.type }}"
-        size="{{ item.size }}"
-        color="{{ item.color }}"
-      ></icon>
-    </block>
+    <icon
+      wx:for="{{ myIcon }}"
+      wx:key="*this"
+      type="{{ item.type }}"
+      size="{{ item.size }}"
+      color="{{ item.color }}"
+    ></icon>
   </view>
 </my-page>

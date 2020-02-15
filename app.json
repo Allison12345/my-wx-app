@@ -6,7 +6,8 @@
     "pages/movable-area/index",
     "pages/swiper/index",
     "pages/view/index",
-    "pages/icon/index"
+    "pages/icon/index",
+    "pages/progress/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
