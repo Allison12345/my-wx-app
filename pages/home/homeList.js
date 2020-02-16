@@ -53,10 +53,6 @@ const homeList = [
         path: 'checkbox'
       },
       {
-        label: 'checkbox-group',
-        path: 'checkbox-group'
-      },
-      {
         label: 'editor',
         path: 'editor'
       },

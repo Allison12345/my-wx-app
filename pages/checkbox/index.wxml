@@ -1,0 +1,9 @@
+<my-page>
+  <checkbox-group bindchange='onChange'>
+    <view wx:for="{{ checkboxList }}" wx:key="value">
+      {{ item.label }}
+      <checkbox value="{{ item.value }}" checked='{{item.checked}}' />
+    </view>
+  </checkbox-group>
+  <view>{{ checkedList }}</view>
+</my-page>

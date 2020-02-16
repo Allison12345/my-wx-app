@@ -8,7 +8,8 @@
     "pages/view/index",
     "pages/icon/index",
     "pages/progress/index",
-    "pages/button/index"
+    "pages/button/index",
+    "pages/checkbox/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
