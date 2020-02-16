@@ -38,14 +38,6 @@ const homeList = [
       {
         label: 'progress',
         path: 'progress'
-      },
-      {
-        label: 'rich-text',
-        path: 'rich-text'
-      },
-      {
-        label: 'text',
-        path: 'text'
       }
     ]
   },

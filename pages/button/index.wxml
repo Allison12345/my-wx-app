@@ -1,0 +1,15 @@
+<my-page>
+  <button
+    wx:for="{{ buttonList }}"
+    wx:key="index"
+    type="{{ item.type }}"
+    size="{{ item.size }}"
+    plain="{{ item.plain }}"
+    loading="{{ item.loading }}"
+    disabled="{{ item.disabled }}"
+    data-item="{{ item }}"
+    bindtap="onTap"
+  >
+    {{ item.type }}
+  </button>
+</my-page>
