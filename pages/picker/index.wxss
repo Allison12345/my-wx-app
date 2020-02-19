@@ -1,0 +1,5 @@
+.my-picker {
+  padding: 16rpx;
+  background-color: #fff;
+  margin: 2rpx 16rpx;
+}
