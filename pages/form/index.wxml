@@ -1,32 +1,31 @@
 <my-page>
-  <form bindsubmit='onSumit' bindreset='onReset'> 
-    <view>
-      <view>switch</view>
-      <switch name="switch"></switch>
-    </view>
-    <view>
-      <view>slider</view>
-      <slider name="slider" show-value></slider>
-    </view>
-    <view>
-      <view>input</view>
-      <input name="input" placeholder="请输入内容" ></input>
-    </view>
-    <view>
-      <view>radio</view>
-    <label>radio1<radio name='radio1'/></label>
-    <label>radio2<radio name='radio2'/></label>
-    </view>
-    <view>
-      <view>checkbox</view>
-      <checkbox-group >
+  <form bindsubmit='onSumit' bindreset='onReset'>
+<my-cells>
+    <my-cell hd='switch' >
+      <switch slot='bd' name="switch"></switch>
+    </my-cell>
+    <my-cell hd='slider'>
+      <slider slot='bd' name="slider" show-value></slider>
+    </my-cell>
+    <my-cell hd='input'>
+      <input slot='bd' name="input" placeholder="请输入内容" ></input>
+    </my-cell>
+    <my-cell hd='checkbox'>
+      <block slot='bd'>
+        <label>radio1<radio name='radio1'/></label>
+        <label>radio2<radio name='radio2'/></label></block>
+    </my-cell>
+    <my-cell hd='checkbox'>
+      <checkbox-group slot='bd'>
         <label>checkbox1<checkbox value="checkbox1"/></label>
         <label>checkbox2<checkbox value="checkbox2"/></label>
       </checkbox-group>
-    </view>
-    <view >
-      <button formType="submit">Submit</button>
-      <button formType="reset">Reset</button>
-    </view>
+    </my-cell>
+    <my-cell >
+      <block slot='bd'>
+        <button formType="submit">Submit</button>
+        <button formType="reset">Reset</button></block>
+    </my-cell>
+  </my-cells>
   </form>
 </my-page>

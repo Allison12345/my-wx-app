@@ -4,5 +4,8 @@ Component({
     bd: String,
     ft: String,
     isLink: Boolean
+  },
+  options: {
+    multipleSlots: true
   }
 })

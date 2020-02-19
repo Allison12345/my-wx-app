@@ -11,10 +11,18 @@
   </swiper>
   <my-cells>
     <my-cell hd="指示点">
-      <switch checked="{{ indicatorDots }}" bindchange="onDotsChange"></switch>
+      <switch
+        slot="ft"
+        checked="{{ indicatorDots }}"
+        bindchange="onDotsChange"
+      ></switch>
     </my-cell>
     <my-cell hd="自动播放">
-      <switch checked="{{ autoplay }}" bindchange="onAutoPlayChange"></switch>
+      <switch
+        slot="ft"
+        checked="{{ autoplay }}"
+        bindchange="onAutoPlayChange"
+      ></switch>
     </my-cell>
   </my-cells>
 </my-page>

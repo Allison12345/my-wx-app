@@ -10,7 +10,8 @@
     "pages/progress/index",
     "pages/button/index",
     "pages/checkbox/index",
-    "pages/form/index"
+    "pages/form/index",
+    "pages/input/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
