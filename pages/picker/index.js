@@ -72,7 +72,7 @@ Page({
     multiIndex: [1, 2, 1],
     date: '2016-09-01',
     time: '12:01',
-    region: ['广东省', '广州市', '海珠区'],
+    region: ['贵州省', '贵阳市', '花溪区'],
     customItem: '全部'
   },
   onPickerChange(e) {
@@ -85,5 +85,14 @@ Page({
   },
   bindMultiPickerColumnChange(e) {
     console.log(e, '2')
+  },
+  onDateChange(e) {
+    this.setData({ date: e.detail.value })
+  },
+  onTimeChange(e) {
+    this.setData({ time: e.detail.value })
+  },
+  onRegionChange(e) {
+    this.setData({ region: e.detail.value })
   }
 })

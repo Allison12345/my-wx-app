@@ -1,0 +1,27 @@
+<my-page>
+  <my-cells>
+    <my-cell slot="bd">{{ year }}年{{ month }}月{{ day }}日</my-cell>
+  </my-cells>
+  <picker-view
+    indicator-style="height: 50rpx;"
+    style="width: 100%; height: 300px;"
+    value="{{ value }}"
+    bindchange="onChange"
+  >
+    <picker-view-column>
+      <view class="picker-cloumn" wx:for="{{ years }}" wx:key="*this"
+        >{{ item }}年</view
+      >
+    </picker-view-column>
+    <picker-view-column>
+      <view class="picker-cloumn" wx:for="{{ months }}" wx:key="*this"
+        >{{ item }}月</view
+      >
+    </picker-view-column>
+    <picker-view-column>
+      <view class="picker-cloumn" wx:for="{{ days }}" wx:key="*this"
+        >{{ item }}日</view
+      >
+    </picker-view-column>
+  </picker-view>
+</my-page>

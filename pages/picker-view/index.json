@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-page": "../../components/my-page/index",
+    "my-cells": "../../components/my-cells/index",
+    "my-cell": "../../components/my-cell/index"
+  }
+}

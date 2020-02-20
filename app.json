@@ -12,7 +12,8 @@
     "pages/checkbox/index",
     "pages/form/index",
     "pages/input/index",
-    "pages/picker/index"
+    "pages/picker/index",
+    "pages/picker-view/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
