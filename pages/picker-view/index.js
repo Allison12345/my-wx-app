@@ -22,7 +22,7 @@ Page({
     value: [1, 1, 1]
   },
   onChange(e) {
-    const left = e.datail.value
+    const left = e.detail.value
     console.log(e)
     this.setData({
       year: this.data.years[left[0]],

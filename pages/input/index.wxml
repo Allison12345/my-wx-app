@@ -2,63 +2,63 @@
   <my-cells>
     <view> 可以自动聚焦的input</view>
     <my-cell>
-      <input class="my-input" slot="bd" auto-focus 
+      <input class="border" slot="bd" auto-focus 
       placeholder="将会获取焦点"></input>
     </my-cell>
   </my-cells>
   <my-cells>
     <view> 控制最大输入长度的input</view>
     <my-cell>
-      <input class="my-input" slot="bd" maxlength="10"
+      <input class="border" slot="bd" maxlength="10"
        placeholder="最大输入长度为10"></input>
     </my-cell>
   </my-cells>
   <my-cells>
     <view> 实时获取输入值：{{inputValue}}</view>
     <my-cell>
-      <input class="my-input" slot="bd" maxlength="10"
+      <input class="border" slot="bd" maxlength="10"
        bindinput='onCurrentInput' placeholder="输入同步到view中"></input>
     </my-cell>
   </my-cells>
   <my-cells>
     <view> 控制输入的input</view>
     <my-cell>
-      <input class="my-input" slot="bd" bindinput="onReplaceInput" type='number' 
+      <input class="border" slot="bd" value='{{replaceValue}}' bindinput="onReplaceInput" type='number' 
       maxlength="10" placeholder="连续的两个1会变成2"></input>
     </my-cell>
   </my-cells>
   <my-cells>
     <view> 控制键盘的input</view>
     <my-cell>
-      <input class="my-input" slot="bd"
+      <input class="border" slot="bd"
        bindinput="onHideKeyboard" placeholder="输入123自动收起键盘"></input>
     </my-cell>
   </my-cells>
   <my-cells>
     <view> 密码输入的input</view>
     <my-cell>
-      <input class="my-input" slot="bd" 
+      <input class="border" slot="bd" 
       password type="text" placeholder="这是一个密码输入框"></input>
     </my-cell>
   </my-cells>
   <my-cells>
     <view> 带小数点的input</view>
     <my-cell>
-      <input class="my-input" slot="bd" 
+      <input class="border" slot="bd" 
       type="digit" placeholder="带小数点的数字键盘"></input>
     </my-cell>
   </my-cells>
   <my-cells>
     <view> 身份证输入的input</view>
     <my-cell>
-      <input class="my-input" slot="bd"
+      <input class="border" slot="bd"
       type="idcard" maxlength="18" placeholder="身份证输入键盘"></input>
     </my-cell>
   </my-cells>
   <my-cells>
     <view> 控制占位符颜色的input</view>
     <my-cell>
-      <input class="my-input" slot="bd" 
+      <input class="border" slot="bd" 
       placeholder-style="color:#F76260" placeholder="占位符字体是红色的"></input>
     </my-cell>
   </my-cells>

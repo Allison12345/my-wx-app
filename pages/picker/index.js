@@ -81,7 +81,7 @@ Page({
   },
   bindMultiPickerChange(e) {
     console.log(e, '1')
-    this.setData({ index: e.detail.value })
+    this.setData({ multiIndex: e.detail.value })
   },
   bindMultiPickerColumnChange(e) {
     console.log(e, '2')

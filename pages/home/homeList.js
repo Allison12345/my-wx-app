@@ -77,10 +77,6 @@ const homeList = [
         path: 'picker-view'
       },
       {
-        label: 'picker-view-column',
-        path: 'picker-view-column'
-      },
-      {
         label: 'radio',
         path: 'radio'
       },
