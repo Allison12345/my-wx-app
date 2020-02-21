@@ -1,0 +1,13 @@
+<my-page>
+  <view>单选框</view>
+  <radio-group bindchange="onChange">
+    <radio
+      class="radio border"
+      wx:for="{{ items }}"
+      wx:key="name"
+      value="{{ item.name }}"
+      checked="{{ item.checked }}"
+      >{{ item.value }}</radio
+    >
+  </radio-group>
+</my-page>

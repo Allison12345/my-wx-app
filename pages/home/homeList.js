@@ -53,10 +53,6 @@ const homeList = [
         path: 'checkbox'
       },
       {
-        label: 'editor',
-        path: 'editor'
-      },
-      {
         label: 'form',
         path: 'form'
       },
@@ -79,10 +75,6 @@ const homeList = [
       {
         label: 'radio',
         path: 'radio'
-      },
-      {
-        label: 'radio-group',
-        path: 'radio-group'
       },
       {
         label: 'slider',

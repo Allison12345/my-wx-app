@@ -13,7 +13,8 @@
     "pages/form/index",
     "pages/input/index",
     "pages/picker/index",
-    "pages/picker-view/index"
+    "pages/picker-view/index",
+    "pages/radio/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
