@@ -1,6 +1,5 @@
-.radio {
-  width: 100%;
+.switch {
   background-color: #fff;
-  margin: 0 16rpx;
+  margin: 16rpx;
   padding: 16rpx;
 }

@@ -1,4 +1,7 @@
 <my-page>
+  <view>
+    <text>slider</text>
+  </view>
   <view class="slider-group">
     <text>设置step</text>
     <slider step="5" show-value bindchange="onChange"></slider>

@@ -1,0 +1,13 @@
+<my-page>
+  <view>
+    <text>switch</text>
+  </view>
+  <view class="switch">
+    type=switch
+    <switch checked="switch1" bindchange="onChange"></switch>
+  </view>
+  <view class="switch">
+    type=checkbox
+    <switch type="checkbox" checked="switch2"></switch>
+  </view>
+</my-page>
