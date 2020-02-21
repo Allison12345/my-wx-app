@@ -14,7 +14,8 @@
     "pages/input/index",
     "pages/picker/index",
     "pages/picker-view/index",
-    "pages/radio/index"
+    "pages/radio/index",
+    "pages/slider/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

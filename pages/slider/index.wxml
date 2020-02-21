@@ -1,0 +1,19 @@
+<my-page>
+  <view class="slider-group">
+    <text>设置step</text>
+    <slider step="5" show-value bindchange="onChange"></slider>
+  </view>
+  <view class="slider-group">
+    <text>设置最小/最大值</text>
+    <slider max="200" min="50" show-value bindchanging="onChanging"></slider>
+  </view>
+  <view class="slider-group">
+    <text>滑块属性</text>
+    <slider
+      block-size="16"
+      block-color="pink"
+      backgroundColor="yellow"
+      show-value
+    ></slider>
+  </view>
+</my-page>
