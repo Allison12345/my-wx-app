@@ -18,7 +18,8 @@
     "pages/slider/index",
     "pages/switch/index",
     "pages/textarea/index",
-    "pages/functional-page-navigator/index"
+    "pages/functional-page-navigator/index",
+    "pages/audio/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
