@@ -1,0 +1,8 @@
+<my-page>
+  <functional-page-navigator
+    name="loginAndGetUserInfo"
+    bindsuccess="loginSuccess"
+  >
+    <button>登录到插件</button></functional-page-navigator
+  >
+</my-page>

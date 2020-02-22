@@ -17,7 +17,8 @@
     "pages/radio/index",
     "pages/slider/index",
     "pages/switch/index",
-    "pages/textarea/index"
+    "pages/textarea/index",
+    "pages/functional-page-navigator/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

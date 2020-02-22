@@ -96,10 +96,6 @@ const homeList = [
       {
         label: 'functional-page-navigator',
         path: 'functional-page-navigator'
-      },
-      {
-        label: 'navigator',
-        path: 'navigator'
       }
     ]
   },
