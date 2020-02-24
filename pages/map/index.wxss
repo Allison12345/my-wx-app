@@ -1,0 +1,15 @@
+.my-map {
+  height: 100%;
+  width: 100%;
+}
+.my-cover-view {
+  margin-top: 24rpx;
+  padding-left: 12rpx;
+  height: 80rpx;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 8rpx;
+  color: #666;
+  margin-left: auto;
+  margin-right: auto;
+}

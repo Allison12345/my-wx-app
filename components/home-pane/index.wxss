@@ -4,11 +4,12 @@
   margin: 8rpx 0;
   background-color: #fff;
 }
-.home-pane__bd {
-  background-color: #f8f8f8;
-}
+
 .home-pane__bd-item {
   padding: 16rpx 0;
-  margin: 4rpx 0;
+  border-top: 4rpx solid #f8f8f8;
   background-color: #fff;
+}
+.home-pane__bd-item:last-child {
+  border-bottom: 4rpx solid #f8f8f8;
 }

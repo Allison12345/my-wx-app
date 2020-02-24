@@ -1,0 +1,19 @@
+.section {
+  height: 80rpx;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24rpx;
+  padding-left: 12rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+  color: #666;
+}
+.my-input {
+  height: 100%;
+  width: 80%;
+}
+.text {
+  color: blue;
+  padding-right: 12rpx;
+}

@@ -19,7 +19,9 @@
     "pages/switch/index",
     "pages/textarea/index",
     "pages/functional-page-navigator/index",
-    "pages/audio/index"
+    "pages/audio/index",
+    "pages/map/index",
+    "pages/map-search-page/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

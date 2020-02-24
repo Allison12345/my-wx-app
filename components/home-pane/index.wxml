@@ -13,8 +13,9 @@
       wx:key="path"
       open-type="navigate"
       url="/pages/{{ item.path }}/index"
+      class="home-pane__bd-item"
     >
-      <view class="home-pane__bd-item flex-x-sb">
+      <view class="flex-x-sb">
         <view class="home-pane__bd-item-label">{{ item.label }}</view>
         <view class="home-pane__bd-item-icon">
           <eva-icon name="arrow-ios-forward-outline"></eva-icon>
