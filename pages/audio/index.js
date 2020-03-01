@@ -1,10 +1,21 @@
 Page({
   data: {
-    poster:
-      'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     name: '此时此刻',
     author: '许巍',
     src: ''
+  },
+  onLoad() {
+    wx.cloud.init()
+    wx.cloud.getTempFileURL({
+      fileList: [
+        'cloud://mywxapp-q4z0b.6d79-mywxapp-q4z0b-1301425530/iWant.mp3'
+      ],
+      success: res => {
+        const { tempFileURL } = res.fileList[0]
+        this.setData({ src: tempFileURL })
+      },
+      fail: console.error
+    })
   },
   onReady() {
     this.audioCtx = wx.createAudioContext('myAudio')
@@ -19,6 +30,6 @@ Page({
     this.audioCtx.seek(14)
   },
   audioStart() {
-    this.audioCtx(0)
+    this.audioCtx.seek(0)
   }
 })
