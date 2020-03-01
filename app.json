@@ -21,7 +21,8 @@
     "pages/functional-page-navigator/index",
     "pages/audio/index",
     "pages/map/index",
-    "pages/map-search-page/index"
+    "pages/map-search-page/index",
+    "pages/camera/index"
   ],
   "permission": {
     "scope.userLocation": {

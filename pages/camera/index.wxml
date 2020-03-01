@@ -1,0 +1,13 @@
+<my-page>
+  <camera
+    class="camera"
+    wx:if="{{ isShown }}"
+    resolution="high"
+    device-position="back"
+    flash="on"
+    mode="normal"
+    ><corver-view class="photo-cover-view" bindtap="takePhoto"></corver-view
+  ></camera>
+  <button bindtap="openCamera">拍照</button>
+  <image src="{{ pic }}"></image>
+</my-page>

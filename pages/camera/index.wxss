@@ -1,0 +1,17 @@
+.camera {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.photo-cover-view {
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #fff;
+  position: fixed;
+  bottom: 48rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
