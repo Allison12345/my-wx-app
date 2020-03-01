@@ -1,23 +1,36 @@
+const QQMap = require('../../libs/qqmap')
+const qqmap = new QQMap({
+  key: 'XLOBZ-4RJ64-7ROUN-D4ORI-HDZFS-CVBHY'
+})
 Page({
-  data: {
-    searchText: ''
-  },
-  onTap() {
-    wx.navigateTo({
-      url: '/pages/map/index'
+  onBack() {
+    wx.navigateBack({
+      delta: 1
     })
   },
   onConfirm(e) {
-    this.setData({ searchText: e.detail.value })
-    wx.navigateTo({
-      url: '/pages/map/index',
-      success: function(res) {
-        // 通过eventChannel向被打开页面传送数据
-        res.eventChannel.emit('/pages/map/index', {
-          data: this.data.searchText
+    console.log(e)
+    const address = e.detail.value
+    qqmap.geocoder({
+      address,
+      success: res => {
+        console.log(res)
+        const { lat, lng } = res.result.location
+        wx.navigateBack({
+          delta: 1,
+          success: () => {
+            wx.redirectTo({
+              url: `/pages/map/index?lat=${lat}&lng=${lng}&address=${address}`
+            })
+          }
+        })
+      },
+      fail: err => {
+        wx.showToast({
+          title: err.message,
+          icon: 'none'
         })
       }
     })
-    console.log(e.detail.value)
   }
 })

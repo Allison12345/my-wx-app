@@ -22,8 +22,8 @@
 		"showShadowRootInWxmlPanel": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
-	"appid": "wxd0c8f8db1d3d5059",
+	"libVersion": "2.10.2",
+	"appid": "wxe2f403f7483c7bce",
 	"projectname": "my-wx-app",
 	"debugOptions": {
 		"hidedInDevtools": []

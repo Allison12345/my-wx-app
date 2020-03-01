@@ -1,7 +1,6 @@
 <my-page>
   <view class="section flex border ">
-    <input class="flex-1 my-input flex-x-lc" focus placeholder="搜索地点" 
-    value="{{searchText}}" bindconfirm='onConfirm'></input>
-    <view class="text flex-x-rc" id="tapTest" bindtap='onTap'>取消</view>
+    <input class="flex-1 my-input flex-x-lc" focus placeholder="搜索地点" bindconfirm='onConfirm'></input>
+    <view class="text flex-x-rc" id="tapTest" bindtap='onBack'>取消</view>
   </view>
 </my-page>

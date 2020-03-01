@@ -1,33 +1,48 @@
 Page({
   data: {
-    searchText: '',
+    address: '搜索地点',
+    longitude: '',
+    latitude: '',
     markers: [
       {
-        iconPath: '/resources/others.png',
+        iconPath: '',
         id: 0,
-        latitude: 23.099994,
-        longitude: 113.32452,
-        width: 50,
-        height: 50
-      }
-    ],
-    polyline: [
-      {
-        points: [
-          {
-            longitude: 113.3245211,
-            latitude: 23.10229
-          },
-          {
-            longitude: 113.32452,
-            latitude: 23.21229
-          }
-        ],
-        color: '#FF0000DD',
-        width: 2,
-        dottedLine: true
+        latitude: '',
+        longitude: '',
+        callout: {
+          content: ''
+        }
       }
     ]
+  },
+  onLoad(query) {
+    const { lat, lng, address } = query
+    if (address) {
+      this.setData({ address })
+    }
+    if (lat && lng) {
+      this.setPostion(lat, lng)
+    } else {
+      this.getCurrentLocation()
+    }
+  },
+  getCurrentLocation() {
+    wx.getLocation({
+      success: res => {
+        this.setPostion(res.latitude, res.longitude)
+      }
+    })
+  },
+  setPostion(lat, lng) {
+    const { markers } = this.data
+    markers[0].latitude = lat
+    markers[0].longitude = lng
+    markers[0].callout.content = `(${lat},${lng})`
+    this.setData({
+      markers,
+      latitude: lat,
+      longitude: lng
+    })
   },
   onRouteChange() {
     wx.navigateTo({
@@ -38,23 +53,5 @@ Page({
         }
       }
     })
-  },
-  observers() {
-    console.log(this.data.searchText)
-  },
-  regionchange(e) {
-    console.log(e.type)
-  },
-  markertap(e) {
-    console.log(e.markerId)
-  },
-  controltap(e) {
-    console.log(e.controlId)
-  },
-  onTap(e) {
-    console.log(e.detail)
-  },
-  onChange(e) {
-    this.setData({ searchText: e.detail.value })
   }
 })
