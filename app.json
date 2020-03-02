@@ -22,7 +22,10 @@
     "pages/audio/index",
     "pages/map/index",
     "pages/map-search-page/index",
-    "pages/camera/index"
+    "pages/camera/index",
+    "pages/canvas/index",
+    "pages/ad/index",
+    "pages/navigation-bar/index"
   ],
   "permission": {
     "scope.userLocation": {

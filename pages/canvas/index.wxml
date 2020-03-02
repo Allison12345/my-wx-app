@@ -1,0 +1,9 @@
+<my-page>
+  <canvas
+    class="myCanvas"
+    type="2d"
+    id="myCanvas"
+    disable-scroll
+    bindtouchstart="onTouchStart"
+  ></canvas>
+</my-page>

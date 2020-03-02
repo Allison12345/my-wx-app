@@ -1,0 +1,13 @@
+<my-page>
+  <page-meta>
+    <navigation-bar
+      class="my-bar"
+      title="{{ title }}"
+      loading="{{ loading }}"
+      front-color="{{ frontColor }}"
+      background-color="{{ backgroundColor }}"
+      color-animation-duration="2000"
+      color-animation-timing-func
+    ></navigation-bar>
+  </page-meta>
+</my-page>
